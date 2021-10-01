@@ -18,7 +18,6 @@ class Solution{
             k %= factorial;
             n--;
         }
-
         return answer;
     }
 
