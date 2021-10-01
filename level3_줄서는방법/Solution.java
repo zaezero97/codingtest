@@ -26,4 +26,3 @@ class Solution{
         new Solution().solution(3, 5);
     }
 }
-
