@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:zaeMemo/Models/Memo+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:zaeMemo/Models/Memo+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:zaeMemo/Models/Folder+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:zaeMemo/Models/Folder+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:zaeMemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
