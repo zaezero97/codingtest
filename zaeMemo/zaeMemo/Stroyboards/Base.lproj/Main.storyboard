@@ -68,13 +68,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="ZOd-pD-urC">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="ZwM-5G-Dlc"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="ZOd-pD-urC"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="bottomToolBar" destination="efe-Me-tgo" id="XmI-k3-TGx"/>
-                        <outlet property="rightBarBtn" destination="ZwM-5G-Dlc" id="dRU-37-308"/>
                         <outlet property="tableView" destination="fcL-v8-GHq" id="8HI-Rg-3Ta"/>
                     </connections>
                 </viewController>

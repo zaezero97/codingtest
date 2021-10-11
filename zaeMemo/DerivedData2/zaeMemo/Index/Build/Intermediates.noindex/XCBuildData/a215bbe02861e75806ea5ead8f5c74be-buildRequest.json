@@ -1,0 +1,67 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42ded619205e2c9455276781281373691c"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd421130daa4894db4a9220537a0c61d4fd9"
+    },
+    {
+      "guid" : "4f74262bb73a03c3161121cb9596eb66f45538bedd7e6d6447b1bd02349d12ee"
+    }
+  ],
+  "containerPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/zaeMemo/zaeMemo.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.0",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/zaeMemo/DerivedData2/zaeMemo/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/zaeMemo/DerivedData2/zaeMemo/Index/Build/Products",
+      "derivedDataPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/zaeMemo/DerivedData2",
+      "indexDataStoreFolderPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/zaeMemo/DerivedData2/zaeMemo/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/zaeMemo/DerivedData2/zaeMemo/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/zaeMemo/DerivedData2/zaeMemo/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/zaeMemo/DerivedData2/zaeMemo/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

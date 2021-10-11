@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/jaeyeongsin/Documents/GitHub/codingtest/zaeMemo/DerivedData2/zaeMemo/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/jaeyeongsin/Documents/GitHub/codingtest/zaeMemo/DerivedData2/zaeMemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/unextended-module.modulemap",
+    }]
+  }]
+}

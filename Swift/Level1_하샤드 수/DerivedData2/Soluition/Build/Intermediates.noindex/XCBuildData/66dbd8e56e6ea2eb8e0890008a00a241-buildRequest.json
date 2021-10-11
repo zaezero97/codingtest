@@ -1,0 +1,104 @@
+{
+  "_buildCommand2" : {
+    "command" : "preview"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Soluition_Sources-PLAYGROUND-TARGET:/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/Soluition.playground",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "arm64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator15.0",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "arm64",
+            "x86_64"
+          ],
+          "targetArchitecture" : "arm64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2/Soluition/Build/Intermediates.noindex",
+          "buildProductsPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2/Soluition/Build/Products",
+          "derivedDataPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2",
+          "indexDataStoreFolderPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2/Soluition/Index/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2/Soluition/Index/PrecompiledHeaders",
+          "pchPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2/Soluition/Build/Intermediates.noindex/PrecompiledHeaders"
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPad6,4",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.0",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2/Soluition/Build/Intermediates.noindex/Playgrounds/Soluition/ReleaseProducts",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2/Soluition/Build/Intermediates.noindex/Playgrounds/Soluition/Intermediates.noindex",
+              "SYMROOT" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2/Soluition/Build/Intermediates.noindex/Playgrounds/Soluition/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "40FFF8A8-AD85-4861-932D-311F8278EC93",
+              "TARGET_DEVICE_MODEL" : "iPad6,4",
+              "TARGET_DEVICE_OS_VERSION" : "15.0",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "containerPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/Soluition.playground",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2/Soluition/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2/Soluition/Build/Products",
+      "derivedDataPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2",
+      "indexDataStoreFolderPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2/Soluition/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2/Soluition/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/jaeyeongsin/Documents/GitHub/codingtest/Swift/Level1_하샤드 수/DerivedData2/Soluition/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPad6,4",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.0",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "40FFF8A8-AD85-4861-932D-311F8278EC93",
+          "TARGET_DEVICE_MODEL" : "iPad6,4",
+          "TARGET_DEVICE_OS_VERSION" : "15.0",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
