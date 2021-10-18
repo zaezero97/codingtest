@@ -1,33 +1,40 @@
 import Foundation
 
 func solution(_ n:Int, _ edge:[[Int]]) -> Int {
-    let edge = edge.sorted(by: {$0[0]<$1[0]})
+    var distance = [Int](repeating: Int.max, count: n+1)
+    distance[0] = 0
+    distance[1] = 0
+    var queue = [Int]()
+    queue.append(1)
     var visited = [Bool](repeating: false, count: n+1)
-    var result = [Int:[Int]]()
-    func dfs(_ node : Int,_ depth : Int)
+    var edges = [[Int]](repeating: [Int](), count: n+1)
+    var result = [Int](repeating: 0, count: n+1)
+    edge.forEach{
+        edges[$0[0]].append($0[1])
+        edges[$0[1]].append($0[0])
+    }
+    while !queue.isEmpty
     {
-        for eg in edge
+        let cur_node = queue.removeFirst()
+        visited[cur_node] = true
+        for near_node in edges[cur_node]
         {
-            if eg[0] == node , !visited[eg[1]]
-            {
-                visited[eg[1]] = true
-                dfs(eg[1],depth+1)
+            if !visited[near_node]{
+                let new_distance = distance[cur_node] + 1
+                if distance[near_node] > new_distance
+                {
+                    distance[near_node] = new_distance
+                    result[distance[near_node]] += 1
+                    queue.append(near_node)
+                }
             }
         }
-        if var arr = result[depth]
-        {
-            arr.append(node)
-            result.updateValue(arr, forKey: depth)
-        }else{
-            result.updateValue([node], forKey: depth)
-        }
     }
-    dfs(1,0)
-    print(result)
-    return 0
+    let max = distance.max()
+    return result[max!]
 }
 
-solution(6,[[3, 6], [4, 3], [3, 2], [1, 3], [1, 2], [2, 4], [5, 2]])
+solution(4, [[4, 3], [1, 3], [2, 3]])
 
 
 
