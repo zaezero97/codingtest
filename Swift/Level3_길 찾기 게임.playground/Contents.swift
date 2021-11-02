@@ -76,7 +76,7 @@ func solution(_ nodeinfo:[[Int]]) -> [[Int]] {
     let sortedNode = nodeinfo.enumerated().sorted{ (a1 ,a2) in
         a1.element[1] > a2.element[1]
     }
-    var tree = Tree()
+    let tree = Tree()
     for i in 0 ..< sortedNode.count{
         tree.append(key: sortedNode[i].offset, nodeinfo: nodeinfo)
         
