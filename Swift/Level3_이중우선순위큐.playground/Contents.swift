@@ -26,6 +26,6 @@ func solution(_ operations:[String]) -> [Int] {
         return [arr.first!,arr.last!]
     }
 }
-
+Int
 solution(["I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"])
 
