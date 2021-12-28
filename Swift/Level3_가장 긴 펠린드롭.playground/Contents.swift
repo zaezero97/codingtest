@@ -60,4 +60,6 @@ func getEvenPalindrome (_ i: Int, _ checkArray: [String]) -> Int {
     
     return result
 }
-solution("aaaab")
+
+
+
