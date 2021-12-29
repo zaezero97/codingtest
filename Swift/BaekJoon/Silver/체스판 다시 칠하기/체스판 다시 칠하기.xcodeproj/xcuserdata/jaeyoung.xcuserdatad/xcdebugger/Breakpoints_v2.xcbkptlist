@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "89668904-0080-440B-8E1C-94F1ED002F0A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60891C8E-4641-418C-B47A-985557E9DD01"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x110e;&#x1166;&#x1109;&#x1173;&#x1111;&#x1161;&#x11ab; &#x1103;&#x1161;&#x1109;&#x1175; &#x110e;&#x1175;&#x11af;&#x1112;&#x1161;&#x1100;&#x1175;/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "checkChess(i:j:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C285EBC-6654-4AFE-93E1-E81181564657"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x110e;&#x1166;&#x1109;&#x1173;&#x1111;&#x1161;&#x11ab; &#x1103;&#x1161;&#x1109;&#x1175; &#x110e;&#x1175;&#x11af;&#x1112;&#x1161;&#x1100;&#x1175;/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F34F5C4-5EB0-4016-9713-16AC0DDDAB7A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x110e;&#x1166;&#x1109;&#x1173;&#x1111;&#x1161;&#x11ab; &#x1103;&#x1161;&#x1109;&#x1175; &#x110e;&#x1175;&#x11af;&#x1112;&#x1161;&#x1100;&#x1175;/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
