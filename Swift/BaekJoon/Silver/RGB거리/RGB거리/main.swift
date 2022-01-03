@@ -5,7 +5,7 @@
 //  Created by 재영신 on 2022/01/03.
 //
 
-// dp 
+// dp
 import Foundation
 
 let N = Int(readLine()!)!
