@@ -30,5 +30,6 @@ func getRyuPoint(point1: (x: Double, y: Double, r: Double), point2: (x: Double, 
     }  else {
         print("2")
     }
+    
 }
 
