@@ -25,7 +25,10 @@ func main() {
     
     var visited = [[Bool]](repeating: [Bool](repeating: false, count: N), count: N)
     
-    while !flag {
+    while true {
+        temp = [[(Int,Int)]]()
+        visited = [[Bool]](repeating: [Bool](repeating: false, count: N), count: N)
+        
         for i in 0 ..< N {
             for j in 0 ..< N {
                 if !visited[i][j] {
@@ -47,14 +50,7 @@ func main() {
             break
         }
         
-        if flag {
-            result += 1
-            flag = false
-        } else {
-            flag = true
-        }
-        temp = [[(Int,Int)]]()
-        visited = [[Bool]](repeating: [Bool](repeating: false, count: N), count: N)
+        result += 1
     }
     print(result)
     
@@ -76,12 +72,12 @@ func main() {
                 visited[point.0][point.1+1] = true
             }
             
-            if point.0 - 1 > 0, !visited[point.0-1][point.1],  L ... R ~= abs(arr[point.0][point.1] - arr[point.0-1][point.1])  {
+            if point.0 - 1 >= 0, !visited[point.0-1][point.1],  L ... R ~= abs(arr[point.0][point.1] - arr[point.0-1][point.1])  {
                 queue.append((point.0-1,point.1))
                 visited[point.0-1][point.1] = true
             }
             
-            if point.1 - 1 > 0, !visited[point.0][point.1 - 1],  L ... R ~= abs(arr[point.0][point.1] - arr[point.0][point.1-1])  {
+            if point.1 - 1 >= 0, !visited[point.0][point.1 - 1],  L ... R ~= abs(arr[point.0][point.1] - arr[point.0][point.1-1])  {
                 queue.append((point.0,point.1-1))
                 visited[point.0][point.1-1] = true
             }
