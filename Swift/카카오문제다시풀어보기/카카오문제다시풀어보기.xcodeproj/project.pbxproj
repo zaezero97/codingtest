@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEE08955281E182900D9544B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE08954281E182900D9544B /* main.swift */; };
+		AEE08958281E21B400D9544B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE08957281E21B400D9544B /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,7 @@
 		AEE0894E281E0F8200D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEE08951281E12D900D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEE08954281E182900D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AEE08957281E21B400D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		AEE08937281E001000D9544B = {
 			isa = PBXGroup;
 			children = (
+				AEE08956281E21A700D9544B /* Level1.실패율 */,
 				AEE08953281E181B00D9544B /* Level1.크레인 인형뽑기 게임 */,
 				AEE08950281E12CD00D9544B /* Lebel1.키패드 누르기 */,
 				AEE0894D281E0F4900D9544B /* Lavel1.숫자 문자열과 영단어 */,
@@ -107,6 +109,15 @@
 			path = "Level1.크레인 인형뽑기 게임";
 			sourceTree = "<group>";
 		};
+		AEE08956281E21A700D9544B /* Level1.실패율 */ = {
+			isa = PBXGroup;
+			children = (
+				AEE08957281E21B400D9544B /* main.swift */,
+			);
+			name = "Level1.실패율";
+			path = "Level2.실패율";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,7 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE08955281E182900D9544B /* main.swift in Sources */,
+				AEE08958281E21B400D9544B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
