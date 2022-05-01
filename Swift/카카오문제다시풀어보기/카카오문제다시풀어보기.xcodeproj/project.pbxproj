@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEE08968281E6D3900D9544B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE08967281E6D3900D9544B /* main.swift */; };
+		AEE0896B281E756300D9544B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE0896A281E756300D9544B /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +34,7 @@
 		AEE08961281E44A500D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEE08964281E4B7000D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEE08967281E6D3900D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AEE0896A281E756300D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 		AEE08937281E001000D9544B = {
 			isa = PBXGroup;
 			children = (
+				AEE08969281E755100D9544B /* Level2.메뉴 리뉴얼 */,
 				AEE08966281E6D2D00D9544B /* Level2.오픈채팅방 */,
 				AEE08963281E4B6100D9544B /* Level2. 문자열 압축 */,
 				AEE08960281E449B00D9544B /* Level1. 다트 */,
@@ -162,6 +164,15 @@
 			path = "Level2.오픈채팅방";
 			sourceTree = "<group>";
 		};
+		AEE08969281E755100D9544B /* Level2.메뉴 리뉴얼 */ = {
+			isa = PBXGroup;
+			children = (
+				AEE0896A281E756300D9544B /* main.swift */,
+			);
+			name = "Level2.메뉴 리뉴얼";
+			path = "Level2.메뉴 리뉴얼";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,7 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE08968281E6D3900D9544B /* main.swift in Sources */,
+				AEE0896B281E756300D9544B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
