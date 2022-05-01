@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AEE0894C281E06E200D9544B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE0894B281E06E200D9544B /* main.swift */; };
+		AEE0894F281E0F8200D9544B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE0894E281E0F8200D9544B /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		AEE08940281E001000D9544B /* 카카오문제다시풀어보기 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "카카오문제다시풀어보기"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE08943281E001000D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEE0894B281E06E200D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AEE0894E281E0F8200D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		AEE08937281E001000D9544B = {
 			isa = PBXGroup;
 			children = (
+				AEE0894D281E0F4900D9544B /* Lavel1.숫자 문자열과 영단어 */,
 				AEE0894A281E06D200D9544B /* Level1.신규 아이디 추천 */,
 				AEE08942281E001000D9544B /* Level1.신고결과받기 */,
 				AEE08941281E001000D9544B /* Products */,
@@ -72,6 +75,15 @@
 			);
 			name = "Level1.신규 아이디 추천";
 			path = "Level1.신규 아이디 추천";
+			sourceTree = "<group>";
+		};
+		AEE0894D281E0F4900D9544B /* Lavel1.숫자 문자열과 영단어 */ = {
+			isa = PBXGroup;
+			children = (
+				AEE0894E281E0F8200D9544B /* main.swift */,
+			);
+			name = "Lavel1.숫자 문자열과 영단어";
+			path = "Lavel1.숫자 문자열과 영단어";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE0894F281E0F8200D9544B /* main.swift in Sources */,
 				AEE0894C281E06E200D9544B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
