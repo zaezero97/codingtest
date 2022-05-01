@@ -22,7 +22,6 @@ func solution(_ n:Int, _ arr1:[Int], _ arr2:[Int]) -> [String] {
             let zeros = [Int](repeating: 0, count: n - arr2Binary.count)
             arr2Binary = zeros + arr2Binary
         }
-        
         for j in 0 ..< n {
             if arr1Binary[j] == 1 || arr2Binary[j] == 1 {
                 line += "#"
