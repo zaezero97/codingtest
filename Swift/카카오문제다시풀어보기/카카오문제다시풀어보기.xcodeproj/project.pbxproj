@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEE0894C281E06E200D9544B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE0894B281E06E200D9544B /* main.swift */; };
-		AEE0894F281E0F8200D9544B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE0894E281E0F8200D9544B /* main.swift */; };
-		AEE08952281E12D900D9544B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE08951281E12D900D9544B /* main.swift */; };
+		AEE08955281E182900D9544B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE08954281E182900D9544B /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +28,7 @@
 		AEE0894B281E06E200D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEE0894E281E0F8200D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEE08951281E12D900D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AEE08954281E182900D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +45,7 @@
 		AEE08937281E001000D9544B = {
 			isa = PBXGroup;
 			children = (
+				AEE08953281E181B00D9544B /* Level1.크레인 인형뽑기 게임 */,
 				AEE08950281E12CD00D9544B /* Lebel1.키패드 누르기 */,
 				AEE0894D281E0F4900D9544B /* Lavel1.숫자 문자열과 영단어 */,
 				AEE0894A281E06D200D9544B /* Level1.신규 아이디 추천 */,
@@ -96,6 +96,15 @@
 			);
 			name = "Lebel1.키패드 누르기";
 			path = "Lebel1.키패드 누르기";
+			sourceTree = "<group>";
+		};
+		AEE08953281E181B00D9544B /* Level1.크레인 인형뽑기 게임 */ = {
+			isa = PBXGroup;
+			children = (
+				AEE08954281E182900D9544B /* main.swift */,
+			);
+			name = "Level1.크레인 인형뽑기 게임";
+			path = "Level1.크레인 인형뽑기 게임";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE0894F281E0F8200D9544B /* main.swift in Sources */,
-				AEE0894C281E06E200D9544B /* main.swift in Sources */,
-				AEE08952281E12D900D9544B /* main.swift in Sources */,
+				AEE08955281E182900D9544B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
