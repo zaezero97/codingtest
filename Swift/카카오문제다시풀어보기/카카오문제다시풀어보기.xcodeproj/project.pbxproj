@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE8795C72820DAB1007DD6C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8795C62820DAB1007DD6C4 /* main.swift */; };
+		AE8795CA28210921007DD6C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8795C928210921007DD6C4 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,7 @@
 		AE8795C02820AE8C007DD6C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AE8795C32820C889007DD6C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AE8795C62820DAB1007DD6C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AE8795C928210921007DD6C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEE08940281E001000D9544B /* 카카오문제다시풀어보기 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "카카오문제다시풀어보기"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE08943281E001000D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEE0894B281E06E200D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -89,9 +90,19 @@
 			path = "Level2.튜플";
 			sourceTree = "<group>";
 		};
+		AE8795C82821090A007DD6C4 /* Level2.순위 검색 */ = {
+			isa = PBXGroup;
+			children = (
+				AE8795C928210921007DD6C4 /* main.swift */,
+			);
+			name = "Level2.순위 검색";
+			path = "Level2.순위 검색";
+			sourceTree = "<group>";
+		};
 		AEE08937281E001000D9544B = {
 			isa = PBXGroup;
 			children = (
+				AE8795C82821090A007DD6C4 /* Level2.순위 검색 */,
 				AE8795C52820DA9E007DD6C4 /* Level2.튜플 */,
 				AE8795C22820C87D007DD6C4 /* Level2.수식 최대화 */,
 				AE8795BF2820AE7D007DD6C4 /* Level2.거리두기 확인하기 */,
@@ -287,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE8795C72820DAB1007DD6C4 /* main.swift in Sources */,
+				AE8795CA28210921007DD6C4 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
