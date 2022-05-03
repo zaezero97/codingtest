@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEE0896E281E8F9A00D9544B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE0896D281E8F9A00D9544B /* main.swift */; };
+		AE788438282008020004212D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE788437282008020004212D /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AE788437282008020004212D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEE08940281E001000D9544B /* 카카오문제다시풀어보기 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "카카오문제다시풀어보기"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE08943281E001000D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEE0894B281E06E200D9544B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -49,9 +50,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE788436282007F10004212D /* Level2.뉴스 클러스터링 */ = {
+			isa = PBXGroup;
+			children = (
+				AE788437282008020004212D /* main.swift */,
+			);
+			name = "Level2.뉴스 클러스터링";
+			path = "Level2.뉴스 클러스터링";
+			sourceTree = "<group>";
+		};
 		AEE08937281E001000D9544B = {
 			isa = PBXGroup;
 			children = (
+				AE788436282007F10004212D /* Level2.뉴스 클러스터링 */,
 				AEE0896C281E8F8500D9544B /* Level2.괄호 변환 */,
 				AEE08969281E755100D9544B /* Level2.메뉴 리뉴얼 */,
 				AEE08966281E6D2D00D9544B /* Level2.오픈채팅방 */,
@@ -243,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE0896E281E8F9A00D9544B /* main.swift in Sources */,
+				AE788438282008020004212D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
