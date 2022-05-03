@@ -17,7 +17,7 @@ func search(points: [Int], target: Int) -> Int{
     
     while high >= low {
         let mid = (high + low) / 2
-        if points[mid]    target {
+        if points[mid] < target {
             low = mid + 1
         } else {
             high = mid - 1
