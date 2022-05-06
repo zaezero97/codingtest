@@ -148,5 +148,37 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D910E76E-5FDE-4016-82EA-C530B029557E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Level3.&#x1112;&#x1161;&#x11b8;&#x1109;&#x1173;&#x11bc; &#x1110;&#x1162;&#x11a8;&#x1109;&#x1175; &#x110b;&#x116d;&#x1100;&#x1173;&#x11b7;/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "dijkstra(_:_:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9430057-6DF5-45D5-9C7D-999E65CAFDEC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Level3.&#x1112;&#x1161;&#x11b8;&#x1109;&#x1173;&#x11bc; &#x1110;&#x1162;&#x11a8;&#x1109;&#x1175; &#x110b;&#x116d;&#x1100;&#x1173;&#x11b7;/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "dijkstra(_:_:_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
